@@ -1,0 +1,25 @@
+span{
+    color: white;
+    width: none;
+}
+.set-color{
+    margin-right: 8px;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+/* a,
+  a:visited,
+  a:hover {
+    color: #1976d2;
+    text-decoration: none;
+  } */
+
+  a:hover {
+    color: #125699;
+  }
+.align-right{
+  margin-left: 45px;
+  float: right;
+}

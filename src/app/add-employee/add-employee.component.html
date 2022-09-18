@@ -1,0 +1,29 @@
+<div class="container my-5">
+    <h1 class="my-45"><b>Add Employee</b></h1>
+        <h2>Created with love by <a href="https://github.com/Ajinkya9767" target="_blank">Ajinkya Shelke</a></h2>
+
+        <form class="form">
+            <div class="mb-3">
+                <label>Id :</label>
+                <input type="text" class="form-control" name="id" [(ngModel)]="employee.id">
+              </div>
+              <div class="mb-3">
+                <label>Name :</label>
+                <input type="text" class="form-control" name="name" [(ngModel)]="employee.name">
+              </div>
+              <div class="mb-3">
+                <label>Age :</label>
+                <input type="text" class="form-control" name="age" [(ngModel)]="employee.age">
+              </div>
+            <div class="mb-3">
+              <label>Email address :</label>
+              <input type="email" class="form-control" name="email" aria-describedby="emailHelp" [(ngModel)]="employee.email">
+            </div>
+            <div class="mb-3">
+              <label>City :</label>
+              <input type="text" class="form-control" name="city" [(ngModel)]="employee.city">
+            </div>
+            <button type="submit" class="btn btn-primary" (click)="addEmployee(employee)">Submit</button>
+          </form>
+
+</div>   

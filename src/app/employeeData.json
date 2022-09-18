@@ -1,0 +1,37 @@
+[
+    {
+        "id" : 123,
+        "name" : "Ajinkya",
+        "age" : 22,
+        "city" : "Latur",
+        "email" : "ajinkya@gmail.com"
+      },
+      {
+        "id" : 121,
+        "name" : "Akanksha",
+        "age" : 21,
+        "city" : "Latur",
+        "email" : "akanksha@gmail.com"
+      },
+      {
+        "id" : 124,
+        "name" : "Ram",
+        "age" : 18,
+        "city" : "Pune",
+        "email" : "ram@gmail.com"
+      },
+      {
+        "id" : 127,
+        "name" : "Seeta",
+        "age" : 15,
+        "city" : "Mumbai",
+        "email" : "seeta@gmail.com"
+      },
+      {
+        "id" : 190,
+        "name" : "Maya",
+        "age" : 32,
+        "city" : "Nilanga",
+        "email" : "maya@gmail.com"
+      }
+]

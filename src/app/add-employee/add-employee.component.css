@@ -1,0 +1,44 @@
+h1 {
+    font-size:3em; 
+    font-weight: 300;
+    line-height:1em;
+    text-align: center;
+    color: #baab35;
+  }
+
+  h2 {
+    font-size:1em; 
+    font-weight: 300;
+    text-align: center;
+    display: block;
+    line-height:1em;
+    padding-bottom: 2em;
+    color: #FB667A;
+  }
+  h2 a {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FB667A;
+    text-decoration: none;
+  }
+  .form{
+    margin-right: 350px;
+    margin-left: 350px;
+  }
+  .form input{
+    margin: 5px;
+  }
+  .form label{
+    padding-left: 10px;
+  }
+  button{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  .container{
+    background-color: bisque;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }

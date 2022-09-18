@@ -1,0 +1,35 @@
+<div class="container my-5" style="text-align: center;">
+<h1 class="my-45"><b>Employee List</b></h1>
+    <h2>Created with love by <a href="https://github.com/Ajinkya9767" target="_blank">Ajinkya Shelke</a></h2>
+    
+    <table class="container2">
+      <thead>
+        <tr>
+          <th><h1>Id</h1></th>
+          <th><h1>Name</h1></th>
+          <th><h1>Age </h1></th>
+          <th><h1>City</h1></th>
+          <th><h1>Email</h1></th>
+          <th><h1>Actions</h1></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let employee of employees">
+          <td>{{employee.id}}</td>
+          <td>{{employee.name}}</td>
+          <td>{{employee.age}}</td>
+          <td>{{employee.city}}</td>
+          <td>{{employee.email}}</td>
+          <td>
+            <button type="button" class="btn btn-outline-primary" (click)="updateEmployee(employee.id)">Update</button>
+            <button type="button" class="btn btn-outline-danger" (click)="deleteEmployee(employee)">Delete</button>
+            <button type="button" class="btn btn-outline-info" (click)="viewEmployeeDetails(employee.id)">View Detils</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+</div>
+
+<!-- <div *ngFor="let e of emps">
+  {{e.id}}{{e.name}}{{e.age}}{{e.city}}{{e.email}}
+</div> -->
