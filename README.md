@@ -28,4 +28,4 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 =======
 # CRUD_using_Angular
->>>>>>> 91929cefedd0b3caa6d0a373f9161aeb5ffc568b
+This is crud application that store, create, update and delete records of Employees using Angular JS.
